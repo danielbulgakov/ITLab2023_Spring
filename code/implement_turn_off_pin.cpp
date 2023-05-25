@@ -1,7 +1,6 @@
-void setup() {
-// Initialize the AD8232 module
-AD8232.begin();
+//#define AD8232_SDN_PIN <pin>
 
+void setup() {
 // Set SDN pin as an output
 pinMode(AD8232_SDN_PIN, OUTPUT);
 }
